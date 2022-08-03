@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: cursive;
+}
+
+section {
+  position: relative;
+  top: 250px
+}
+
+h1 {
+  font-size: 375%;
+  margin: 0;
+  color: #FF1818;
+}
+
+h2{
+  font-size: 270%;
+  color: white;
+  padding-bottom: 10px;
+}
+h3{
+  font-size: 170%;
+  color: #FEFBF6;
+}
+
+p{
+  font-family: Georgia, serif;
+  font-size: 125%;
+  color: #FFFFFF;
+  line-height: 2;
+}
+
+hr{
+  width: 10%;
+  border: dotted #06283D 6px;
+  border-bottom: none ;
+  margin: 100px auto;
+
+}
+.first_part {
+  background-color: #B0D6F5;
+  padding: 20px;
+  position: relative;
+  padding-top: 100px
+}
+
+.header_subtitle{
+  font-size: 1.2rem;
+    color: #F56D91
+}
+
+.cloud1 {
+  position: absolute;
+  top: 50px;
+  right: 300px
+}
+
+.cloud2 {
+  position: absolute;
+  left: 300px;
+  bottom: 500px
+}
+
+.ship {
+  position: relative;
+  top: 50px;
+  left: 500px
+}
+
+.second_part {
+  background-color: #0096FF;
+  padding: 20px;
+}
+.skill-row1,.skill-row2{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.haki {
+ margin-right: 30px;
+ float: left;
+}
+
+.devil_fruit_img{
+ margin-right: 30px;
+ float: right;
+}
+.third_part {
+  background-color:#FFF9CA;
+  padding: 100px
+}
+.get_in_touch{
+  color: red;
+}
+.btn {
+  background: #293462;
+  background-image: -webkit-linear-gradient(top, #293462, #D61C4E);
+  background-image: -moz-linear-gradient(top, #293462, #D61C4E);
+  background-image: -ms-linear-gradient(top, #293462, #D61C4E);
+  background-image: -o-linear-gradient(top, #293462, #D61C4E);
+  background-image: linear-gradient(to bottom, #293462, #D61C4E);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 4px 2px 7px #ff0000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position:relative;
+  left: 220%;
+  top: 10
+
+}
+
+.btn:hover {
+  background: #EB1D36;
+  background-image: -webkit-linear-gradient(top, #EB1D36, #FFF80A);
+  background-image: -moz-linear-gradient(top, #EB1D36, #FFF80A);
+  background-image: -ms-linear-gradient(top, #EB1D36, #FFF80A);
+  background-image: -o-linear-gradient(top, #EB1D36, #FFF80A);
+  background-image: linear-gradient(to bottom, #EB1D36, #FFF80A);
+  text-decoration: none;
+}
+
+.footerlinks{
+  margin-top: 50px;
+   display: flex;
+   justify-content: center;
+
+}
+span{
+  margin: 10px;
+  padding: 20px;
+}
+.footer-link{
+  font-size: 29px;
+  color: #31087B;
+  text-decoration: none;
+}
+.footer-link:hover{
+    color: #A66CFF;
+}
+#copy{
+    color: #31087B;
+}
+
+.contact-me{
+position: absolute;
+}
